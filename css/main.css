@@ -34,3 +34,51 @@ body {
     opacity: 0.5;
 }
 
+@media screen and (min-width: 641px) {
+    #column {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #box1 {
+        background-color: blue;
+        height: 200px;
+        width: 25%;
+    }
+    
+    #box1:hover {
+        opacity: 0.5;
+    }
+
+    #box2 {
+        background-color: purple;
+        height: 200px;
+        width: 25%;
+    }
+
+    #box2:hover {
+        opacity: 0.5;
+    }
+    
+    #box3 {
+        background-color: gray;
+        height: 200px;
+        width: 25%;
+        display: block;
+    }
+    
+    #box3:hover {
+        opacity: 0.5;
+    }
+
+    #box4 {
+        background-color: brown;
+        height: 200px;
+        width: 25%;
+        display: block;
+    }
+
+    #box4:hover {
+        opacity: 0.5;
+    }
+}
